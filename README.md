@@ -14,6 +14,10 @@ To classifiy cat and non-cat images. We'll be using ReLU activation function for
 
 ### Inner workings of 2-layer network:
 
+![2 layer neural network img](running/images/2layerNN_kiank.png)
+
 ### Inner workings of L-layer network:
+
+![2 layer neural network img](running/images/LlayerNN_kiank.png)
 
 <br>This project has been built under the first course "Neural Networks and Deep Learning" in the Coursera Deep Learning Specialization, offered by [DeepLearning.AI](https://www.deeplearning.ai/) and taught by Andrew Ng himself. 
