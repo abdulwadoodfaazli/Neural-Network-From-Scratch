@@ -15,14 +15,12 @@ To classifiy cat and non-cat images.
 ### We'll be using ReLU activation function for hidden layers and Sigmoid activation function for output layer. The overall network will look something like this:
 ![neural network img](building/images/outline.png)
 
-<br>
 ### Inner workings of 2-layer network:
 
 Get input -> Initizalize parameters -> Pass through ReLU in hidden layer -> Pass through Sigmoid in output layer -> Compute Loss -> Backward Propogation to minimize loss (gradient descent) -> Update parameters
 
 ![2 layer neural network img](running/images/2layerNN_kiank.png)
 
-<br>
 ### Inner workings of L-layer network:
 
 Same as 2-Layer network but we repeat the hidden-layer process (L-1) times. This allows for a "deeper" network to be built and more patterns/relationships to be extracted from the input. At the output layer, we use the same Sigmoid function.
