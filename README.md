@@ -10,7 +10,7 @@ Detailed explanation and visuals for almost every code cell are provided in both
 
 ### Task: 
 To classifiy cat and non-cat images. We'll be using ReLU activation function for hidden layers and Sigmoid activation function for output layer. It will look something like this:
-[neural network img](building/images/final_outline.png)
+![neural network img](building/images/outline.png)
 
 ### Inner workings of 2-layer network:
 
