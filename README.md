@@ -9,8 +9,10 @@ Detailed explanation and visuals for almost every code cell are provided in both
 ## General Overview:
 
 ### Task: 
-To classifiy cat and non-cat images. We'll be using ReLU activation function for hidden layers and Sigmoid activation function for output layer. It will look something like this:
-![neural network img](building/images/outline.png)
+To classifiy cat and non-cat images. 
+![cat img](running/images/my_image.jpg)<br>
+We'll be using ReLU activation function for hidden layers and Sigmoid activation function for output layer. It will look something like this:
+![neural network img](building/images/outline.png)<br>
 
 ### Inner workings of 2-layer network:
 
@@ -18,6 +20,6 @@ To classifiy cat and non-cat images. We'll be using ReLU activation function for
 
 ### Inner workings of L-layer network:
 
-![2 layer neural network img](running/images/LlayerNN_kiank.png)
+![2 layer neural network img](running/images/LlayerNN_kiank.png)<br>
 
 <br>This project has been built under the first course "Neural Networks and Deep Learning" in the Coursera Deep Learning Specialization, offered by [DeepLearning.AI](https://www.deeplearning.ai/) and taught by Andrew Ng himself. 
