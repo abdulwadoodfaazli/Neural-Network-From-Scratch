@@ -1,8 +1,8 @@
 # Building a neural network for binary classification from scratch
 
-This repository consists of 2 major files: 
-- `building.ipynb` for building our neural networks (one will be a 2-layer network, while the other will be L-layer network)
--  `running.ipynb` for testing our neural networks on binary classification for cat and non-cat images.
+This repository consists of 2 parts: 
+- `\building` for building our neural networks (one will be a 2-layer network, while the other will be L-layer network)
+-  `\running` for testing our neural networks on binary classification for cat and non-cat images.
 
 Detailed explanation and visuals for almost every code cell are provided in both files, feel free to check them out!
 
