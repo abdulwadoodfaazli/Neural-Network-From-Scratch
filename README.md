@@ -1,7 +1,7 @@
 # Building a neural network for binary classification from scratch
 
 This repository consists of 2 parts: 
-- `\building` for building our neural networks (one will be a 2-layer network, while the other will be L-layer network)
+- `\building` for building our neural networks (one will be a 2-layer network, while the other will be L-layer network. For this project, we'll keep L=4)
 -  `\running` for testing our neural networks on binary classification for cat and non-cat images.
 
 Detailed explanation and visuals for almost every code cell are provided in both files, feel free to check them out!
@@ -21,9 +21,11 @@ Get input -> Initizalize parameters -> Pass through ReLU in hidden layer -> Pass
 
 ![2 layer neural network img](running/images/2layerNN_kiank.png)
 
-### Inner workings of L-layer network:
+### Inner workings of an L-layer network:
 
-Same as 2-Layer network but we repeat the hidden-layer process (L-1) times. This allows for a "deeper" network to be built and more patterns/relationships to be extracted from the input. At the output layer, we use the same Sigmoid function.
+In this project, since we're using L = 4, our network will be a 4-Layer network. You'll see in the `.ipynb` files that **increasing the number of layers from 2 to just 4 increased by the accuracy by 8%**!
+
+It works the same as 2-Layer network but we repeat the hidden-layer process (L-1 = 3) times. This allows for a "deeper" network to be built and more patterns/relationships to be extracted from the input. At the output layer, we use the same Sigmoid function.
 
 ![2 layer neural network img](running/images/LlayerNN_kiank.png)<br>
 
